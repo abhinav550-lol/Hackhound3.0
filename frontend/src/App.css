@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+*{
+    font-family: "Montserrat", sans-serif;   
+}
+#name{
+    
+     color: rgb(48, 45, 103);
+ }
+
+
+ .btn{
+    cursor: pointer;
+ }
+
+ #appointButton{
+    margin-top: 2em;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(87, 127, 190);
+ }
